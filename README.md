@@ -4,7 +4,7 @@
 
 <h1 align="center"> HISTOBET-FEM </h1>
 
-Proyecto Politécnico Internacional. Liga BetPlay (En desarrollo).
+
 
 
 ### Resumen -
