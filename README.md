@@ -4,9 +4,20 @@ Proyecto Politécnico Internacional. Liga BetPlay (En desarrollo).
 
 Resumen - “HISTOBET-FEM” es una aplicación para los fanáticos del futbol profesional colombiano femenino y los que quieran conocer más sobre el mismo. La persona contará con un usuario y contraseña para el acceso con la que podrá acceder y seleccionar diferentes años entre el 2000 y el 2023, los cuales mostrarán en pantalla detalles de las finales de esos años seleccionados, así como el nombre de la goleadora y cantidad de goles anotados por la misma en ese año. Para esto usaremos Netbeans y modelo vista controlador (MVC). 
 
+# Título del Proyecto
+
+_Acá va un párrafo que describa lo que es el proyecto_
+
 ## Comenzando 🚀
 
-### Pre-requisitos
+_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
+
+Mira **Deployment** para conocer como desplegar el proyecto.
+
+
+### Pre-requisitos 📋
+
+_Que cosas necesitas para instalar el software y como instalarlas_
 
     Abstract – "Historico BetPlay Femenino" is an application for fans of Colombian professional women's soccer and those who want to know more about it. The person will have a username and password for access with which they can access and select different years between 2000 and 2023, which will show details of the finals of those selected years on the screen, as well as the name of the scorer and amount of goals scored by it in that year. For this we will use Netbeans and a Model View Controller (MVC).
 
