@@ -19,12 +19,17 @@
 Model View Controller (MVC), OOP Pillars, Graphical environment.
 
 ### Contenido: 
-_Historico_BetPlay_graficofin.ZIP_ = Ejecutables del aplicativo sin necesidad de Neatbens en .Jar, .Exe y .MSI.
-_Betplay01.zip_ = Primer avance del aplicativo. 
-_BetplayLigaFemenina_Grafico.jar_ = .Jar de la versión 2.0 del aplicativo. 
-_Historico_BetPlay_Listas1.ZIP_ = Primer avance del aplicativo implementando listas, sin entorno gráfico. 
-_Historico_BetPlay_graficofin.ZIP_ = Aplicativo final con entorno gráfico. 
-_IEEE Historico BetPlay.pdf_ Primer avance formato IEE del aplicativo. 
+**_Historico_BetPlay_graficofin.ZIP_** = Ejecutables del aplicativo sin necesidad de Neatbens en .Jar, .Exe y .MSI.
+
+**_Betplay01.zip_** = Primer avance del aplicativo. 
+
+**_BetplayLigaFemenina_Grafico.jar_** = .Jar de la versión 2.0 del aplicativo. 
+
+**_Historico_BetPlay_Listas1.ZIP_** = Primer avance del aplicativo implementando listas, sin entorno gráfico. 
+
+**_Historico_BetPlay_graficofin.ZIP_** = Aplicativo final con entorno gráfico. 
+
+**_IEEE Historico BetPlay.pdf_** = Primer avance formato IEE del aplicativo. 
 
 
 
