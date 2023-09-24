@@ -7,40 +7,40 @@
 Proyecto Politécnico Internacional. Liga BetPlay (En desarrollo).
 
 
-###Resumen - “HISTOBET-FEM” es una aplicación para los fanáticos del futbol profesional colombiano femenino y los que quieran conocer más sobre el mismo. La persona contará con un usuario y contraseña para el acceso con la que podrá acceder y seleccionar diferentes años entre el 2000 y el 2023, los cuales mostrarán en pantalla detalles de las finales de esos años seleccionados, así como el nombre de la goleadora y cantidad de goles anotados por la misma en ese año. Para esto usaremos Netbeans y modelo vista controlador (MVC). 
+### Resumen - “HISTOBET-FEM” es una aplicación para los fanáticos del futbol profesional colombiano femenino y los que quieran conocer más sobre el mismo. La persona contará con un usuario y contraseña para el acceso con la que podrá acceder y seleccionar diferentes años entre el 2000 y el 2023, los cuales mostrarán en pantalla detalles de las finales de esos años seleccionados, así como el nombre de la goleadora y cantidad de goles anotados por la misma en ese año. Para esto usaremos Netbeans y modelo vista controlador (MVC). 
 
 
 
-###Abstract – "Historico BetPlay Femenino" is an application for fans of Colombian professional women's soccer and those who want to know more about it. The person will have a username and password for access with which they can access and select different years between 2000 and 2023, which will show details of the finals of those selected years on the screen, as well as the name of the scorer and amount of goals scored by it in that year. For this we will use Netbeans and a Model View Controller (MVC).
+### Abstract – "Historico BetPlay Femenino" is an application for fans of Colombian professional women's soccer and those who want to know more about it. The person will have a username and password for access with which they can access and select different years between 2000 and 2023, which will show details of the finals of those selected years on the screen, as well as the name of the scorer and amount of goals scored by it in that year. For this we will use Netbeans and a Model View Controller (MVC).
 
-###Keywords: Model View Controller (MVC), OOP Pillars, Graphical environment.
+### Keywords: Model View Controller (MVC), OOP Pillars, Graphical environment.
 
-##I.	INTRODUCCIÓN
+## I.	INTRODUCCIÓN
 Este proyecto se realizará mediante el aplicativo Apache Netbens IDE 17, mediante arquitectura de modelo vista controlador (MVC), enfocando sus procesos en “Histórico BetPlay femenino”, que permitirá a sus usuarios tener la visualización del histórico de la Liga BetPlay - Futbol Femenino Colombiano durante los últimos 4 años, en cuanto a finales jugadas y estadísticas de las mismas. 
 
 
 “Histórico BetPlay femenino” contará con un entorno gráfico que permitirá seleccionar diferentes opciones y funciones asociadas al año que el usuario seleccione como ejemplo: 
 
-###1. Acceso del usuario: 
+### 1. Acceso del usuario: 
 Al iniciar la aplicación, el usuario visualizará una ventana en la que deberá acceder con su respectivo usuario y contraseña. El nombre de usuario será “ciclo3” y la contraseña de acceso será “proyecto”. Si los datos son correctos, podrá acceder al menú principal o en caso de ser errados, el sistema mostrará una alerta para que ingrese con los datos correctos. 
 
-###2. Menú principal: 
+### 2. Menú principal: 
 Luego de iniciar sesión, el usuario podrá visualizar el menú principal del aplicativo llamado "Histórico BetPlay Femenino". En el menú encontrará un listado de por lo menos 4 años descendiendo del 2023 a años anteriores.
 
-###3. Elección de año:
+### 3. Elección de año:
 Al seleccionar uno de los años listados en pantalla, el usuario visualizará ahora en pantalla las estadísticas de las finales jugadas en el respectivo año, sea 2023, 2022, 2021 o 2020. Las estadísticas que aparecerán en pantalla de cada año son: Equipos finalistas, resultado de partido de ida, resultado de partido de vuelta, estadio en que se jugó cada partido, ganador de cada partido, nombre de la goleadora de ese año y cantidad de goles anotados por la misma. 
 
-###4. Botones: 
+### 4. Botones: 
 El aplicativo contendrá 2 botones, uno para finalizar el proceso o salir de la aplicación y otro dentro de cada año para retornar al menú principal para elegir otro año. 
 
 Se podrá acceder fácilmente al histórico de finales de cada año seleccionado y retornar para elegir cualquier otro año sin problemas, de esta forma podrán recopilar ágilmente los datos del año que deseen, con un entorno gráfico amigable para cualquier usuario. 
 
 
-##II.	CÓDIGO DE HISTOBET-FEM.
+## II.	CÓDIGO DE HISTOBET-FEM.
 
 Código comentado para su fácil entendimiento, además de un comentario al inicio de cada clase para mayor comprensión. 
 
-###1. Se importan las librerías a utilizar. 
+### 1. Se importan las librerías a utilizar. 
 
 import java.util.Scanner;
 import javax.swing.*;
@@ -48,7 +48,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-###2. Se crea el Main que básicamente funciona para llamar la “ventanainiciodesesion”. Que es el método para el acceso del usuario y contraseña. 
+### 2. Se crea el Main que básicamente funciona para llamar la “ventanainiciodesesion”. Que es el método para el acceso del usuario y contraseña. 
 
 public class BetplayLigaFemenina_Grafico {
 
@@ -62,7 +62,7 @@ public class BetplayLigaFemenina_Grafico {
 }
 
 
-###3. Se crea la superclase “Anio”, que llamará los métodos de los demás años y especificará los datos de las finales de cada año. 
+### 3. Se crea la superclase “Anio”, que llamará los métodos de los demás años y especificará los datos de las finales de cada año. 
 
 package betplayligafemenina_grafico;
 
@@ -120,7 +120,7 @@ public abstract class Anio {
     }
 }
 
-###4. Se crea la clase “Anio2020” y otras clases con “Anio2021, 2022 y 2023” en la cual se ingresan los datos de las finales de cada año. Se crean métodos “obtenerInfoAnio” para que pueda ser llamado desde otra clase. Clases Anio, extends Anio.
+### 4. Se crea la clase “Anio2020” y otras clases con “Anio2021, 2022 y 2023” en la cual se ingresan los datos de las finales de cada año. Se crean métodos “obtenerInfoAnio” para que pueda ser llamado desde otra clase. Clases Anio, extends Anio.
 
 public class Anio2020 extends Anio {
     
@@ -166,7 +166,7 @@ public class Anio2020 extends Anio {
 
 
 
-###5. Se crea la clase Equipo que se encargará de crear el método para obtener el nombre de los equipos. 
+### 5. Se crea la clase Equipo que se encargará de crear el método para obtener el nombre de los equipos. 
 
 public class Equipo {
     private String nombre;
@@ -185,7 +185,7 @@ public class Equipo {
 
 
 
-###6. Se crea la clase “Final”, que representa los detalles de los partidos de la final en el año que sea solicitado. 
+### 6. Se crea la clase “Final”, que representa los detalles de los partidos de la final en el año que sea solicitado. 
 
 public class Final {
     private Equipo equipoLocal;
@@ -242,7 +242,7 @@ public class Final {
 }
 
 
-###7. Se crea la clase “Jugadora” que contendrá el método para llamar por el nombre de la jugadora y la cantidad de goles anotados, según el año seleccionado. 
+### 7. Se crea la clase “Jugadora” que contendrá el método para llamar por el nombre de la jugadora y la cantidad de goles anotados, según el año seleccionado. 
 
 public class Jugadora {
     private String nombre;
@@ -266,7 +266,7 @@ public class Jugadora {
 }
 
 
-###8.Se crea clase “VentanaInformacionAnio”, la cual se encarga de generar un entorno gráfico en una ventana emergente que muestra la información de el año solicitado. Adicional, se configura su presentación como tamaño de la ventana, titulo de la ventana, botón para “salir” y botón para “regresar”. 
+### 8.Se crea clase “VentanaInformacionAnio”, la cual se encarga de generar un entorno gráfico en una ventana emergente que muestra la información de el año solicitado. Adicional, se configura su presentación como tamaño de la ventana, titulo de la ventana, botón para “salir” y botón para “regresar”. 
 
 package betplayligafemenina_grafico.Modelo;
 
@@ -346,7 +346,7 @@ public class VentanaInformacionAnio extends JFrame {
     }
 }
 
-###9. Se crea la clase “VentanaInicioSesion” que es la que contendrá los JLabel, JTextField, JPasswordField y JButton, para el menú o pantalla de inicio de sesión del usuario, en el cual el usuario será: ciclo3 y la contraseña: proyecto.
+### 9. Se crea la clase “VentanaInicioSesion” que es la que contendrá los JLabel, JTextField, JPasswordField y JButton, para el menú o pantalla de inicio de sesión del usuario, en el cual el usuario será: ciclo3 y la contraseña: proyecto.
 Adicional, se crean métodos para la apariencia de la ventana y espacio entre botones. 
 
 import javax.swing.*;
@@ -482,7 +482,7 @@ public class VentanaInicioSesion extends JFrame {
     }
 }
 
-###10. Se crea la clase: “VentanaMenu”, que será el entorno gráfico donde se encontrará el menú con los años “botones” a seleccionar. Estos botones de cada año estarán asociados al método “mostrarVentanaInformacionAnio” para que, al hacer clic en ellos, se abra la ventana emergente con la información correspondiente a cada año. Se usa el JFrame para la ventana emergente de cada año. Se adiciona el botón de créditos, se ajustan tamaños y se centra el espacio.   
+### 10. Se crea la clase: “VentanaMenu”, que será el entorno gráfico donde se encontrará el menú con los años “botones” a seleccionar. Estos botones de cada año estarán asociados al método “mostrarVentanaInformacionAnio” para que, al hacer clic en ellos, se abra la ventana emergente con la información correspondiente a cada año. Se usa el JFrame para la ventana emergente de cada año. Se adiciona el botón de créditos, se ajustan tamaños y se centra el espacio.   
 
 package betplayligafemenina_grafico.Vista;
 
