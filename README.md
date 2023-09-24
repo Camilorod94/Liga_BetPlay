@@ -30,6 +30,8 @@
 
 **_IEEE Historico BetPlay.pdf_** = Primer avance formato IEE del aplicativo. 
 
+**_Historico_BetPlay_Listas_Fin.ZIP** = Entrega final proyecto estructura, sin entorno gráfico. 
+
 
 
 ## I.	INTRODUCCIÓN
