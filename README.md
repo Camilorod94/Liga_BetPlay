@@ -7,13 +7,16 @@
 Proyecto Politécnico Internacional. Liga BetPlay (En desarrollo).
 
 
-### Resumen - “HISTOBET-FEM” es una aplicación para los fanáticos del futbol profesional colombiano femenino y los que quieran conocer más sobre el mismo. La persona contará con un usuario y contraseña para el acceso con la que podrá acceder y seleccionar diferentes años entre el 2000 y el 2023, los cuales mostrarán en pantalla detalles de las finales de esos años seleccionados, así como el nombre de la goleadora y cantidad de goles anotados por la misma en ese año. Para esto usaremos Netbeans y modelo vista controlador (MVC). 
+### Resumen -
+“HISTOBET-FEM” es una aplicación para los fanáticos del futbol profesional colombiano femenino y los que quieran conocer más sobre el mismo. La persona contará con un usuario y contraseña para el acceso con la que podrá acceder y seleccionar diferentes años entre el 2000 y el 2023, los cuales mostrarán en pantalla detalles de las finales de esos años seleccionados, así como el nombre de la goleadora y cantidad de goles anotados por la misma en ese año. Para esto usaremos Netbeans y modelo vista controlador (MVC). 
 
 
 
-### Abstract – "Historico BetPlay Femenino" is an application for fans of Colombian professional women's soccer and those who want to know more about it. The person will have a username and password for access with which they can access and select different years between 2000 and 2023, which will show details of the finals of those selected years on the screen, as well as the name of the scorer and amount of goals scored by it in that year. For this we will use Netbeans and a Model View Controller (MVC).
+### Abstract –
+"Historico BetPlay Femenino" is an application for fans of Colombian professional women's soccer and those who want to know more about it. The person will have a username and password for access with which they can access and select different years between 2000 and 2023, which will show details of the finals of those selected years on the screen, as well as the name of the scorer and amount of goals scored by it in that year. For this we will use Netbeans and a Model View Controller (MVC).
 
-### Keywords: Model View Controller (MVC), OOP Pillars, Graphical environment.
+### Keywords: 
+Model View Controller (MVC), OOP Pillars, Graphical environment.
 
 ## I.	INTRODUCCIÓN
 Este proyecto se realizará mediante el aplicativo Apache Netbens IDE 17, mediante arquitectura de modelo vista controlador (MVC), enfocando sus procesos en “Histórico BetPlay femenino”, que permitirá a sus usuarios tener la visualización del histórico de la Liga BetPlay - Futbol Femenino Colombiano durante los últimos 4 años, en cuanto a finales jugadas y estadísticas de las mismas. 
