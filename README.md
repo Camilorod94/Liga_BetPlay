@@ -4,10 +4,13 @@
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
 
+![image](https://github.com/Camilorod94/Proyecto-HISTOBET-FEM/assets/141589217/1f612e16-c696-4498-bba1-602f75778812)
+![image](https://github.com/Camilorod94/Proyecto-HISTOBET-FEM/assets/141589217/49264ce4-2a4e-4b3c-a3a4-e57fc6a0a05b) 
+
 
 <h1 align="center"> HISTOBET-FEM </h1>
 
-![image](https://github.com/Camilorod94/Proyecto-HISTOBET-FEM/assets/141589217/1f612e16-c696-4498-bba1-602f75778812)
+
 
 ### ¿Qué es? -
 “HISTOBET-FEM” es una aplicación para los fanáticos del futbol profesional colombiano femenino y los que quieran conocer más sobre el mismo. La persona contará con un usuario y contraseña para acceder y seleccionar diferentes años entre el 2020 y el 2023, los cuales mostrarán en pantalla detalles de las finales de esos años seleccionados, así como el nombre de la goleadora y cantidad de goles anotados por la misma en ese año. Para esto usaremos Netbeans y modelo vista controlador (MVC). 
@@ -31,6 +34,8 @@
 **_IEEE Historico BetPlay.pdf_** = Primer avance formato IEE del aplicativo. 
 
 **_Historico_BetPlay_Listas_Fin.ZIP_** = Entrega final proyecto estructura, sin entorno gráfico. 
+
+**_IEEE Historico BetPlay Final.pdf_** = PDF Final del formato IEEE del proyecto.
 
 
 
